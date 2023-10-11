@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#grid{
+    background-color: white;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 24px;
+    vertical-align: top;
+    background-color: grey;
+    color: white;
+    border-color: white;
+}
+/* #reset{
+    height: 30px;
+    width: 125px;
+    margin-top: 15px;
+    margin-left: 0.5rem;
+    padding: 0;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    letter-spacing: 0.2rem;
+} */
+#reset:hover{
+    background-color: blue;
+}
